@@ -11,8 +11,7 @@ to support competitive landscape analysis and brand positioning for Highlands Co
 
 The solution integrates:
 - Data cleaning and quality control
-- Conceptual and logical data modeling
-- ER diagram design
+- Conceptual and logical data modeling (ER diagram design)
 - Role-based data access control (RBAC)
 - Business analytics and visualization
 
@@ -52,7 +51,6 @@ The solution integrates:
 ## 🏗 Conceptual Data Model
 
 
-
 ### Core Design Principle
 The **MPI (Customer)** entity acts as the central hub representing individual consumers.
 All behavioral, perceptual, and segmentation entities relate to MPI via 1-to-many relationships.
@@ -71,7 +69,7 @@ All behavioral, perceptual, and segmentation entities relate to MPI via 1-to-man
 
 ---
 
-## 🔗 Entity Relationships
+### 🔗 Entity Relationships
 
 | From Entity | To Entity | Cardinality | Business Logic |
 |------------|----------|-------------|----------------|
@@ -81,9 +79,10 @@ All behavioral, perceptual, and segmentation entities relate to MPI via 1-to-man
 | Customer | Day_Part | 1 : N | Time-based visits |
 | Brand | Competitor | Market-level | Competitive benchmarking |
 
+<img width="1149" height="551" alt="image" src="https://github.com/user-attachments/assets/f5f143b8-837b-4657-a7b4-55ea994c54d8" />
 ---
 
-## 🧱 ER Diagram
+### 🧱 ER Diagram
 ```text
 Customer (MPI)
  ├── Brand_Health
@@ -93,6 +92,8 @@ Customer (MPI)
  ├── Day_Week
  ├── Need_State
  └── Companion
+
+<img width="1252" height="737" alt="image" src="https://github.com/user-attachments/assets/b947c095-8ef5-411a-ae4f-ee4b13e4537e" />
 
 
 ## 🔐 Role-Based Data Access Control (RBAC)

@@ -92,13 +92,13 @@ Customer (MPI)
  ├── Day_Week
  ├── Need_State
  └── Companion
-
+```
 <img width="1252" height="737" alt="image" src="https://github.com/user-attachments/assets/b947c095-8ef5-411a-ae4f-ee4b13e4537e" />
 
 
 ## 🔐 Role-Based Data Access Control (RBAC)
 Defined Roles
-
+```
 - Board of Directors (BOD)
 - HR / People Analytics
 - Finance & Accounting
@@ -107,7 +107,7 @@ Defined Roles
 - Store Manager
 - Regional Manager
 - Sales Operations
-
+```
 <img width="1116" height="517" alt="image" src="https://github.com/user-attachments/assets/71cef139-1789-4dac-86bb-816311e6dde8" />
 
 
@@ -119,7 +119,7 @@ Defined Roles
 
 
 ## 📊 Analytical Use Case
-
+```
 Customer churn pattern analysis
 
 Brand perception impact on loyalty
@@ -127,10 +127,10 @@ Brand perception impact on loyalty
 Competitive positioning assessment
 
 Segmentation-driven insights
-
+```
 
 # 🛠 Tools & Technologies
-
+```
 - SQL
 
 - Data Modeling (ERD)
@@ -138,3 +138,4 @@ Segmentation-driven insights
 - Data Governance (RBAC)
 
 - Business Analytics
+```

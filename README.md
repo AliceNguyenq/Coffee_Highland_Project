@@ -51,6 +51,8 @@ The solution integrates:
 
 ## 🏗 Conceptual Data Model
 
+
+
 ### Core Design Principle
 The **MPI (Customer)** entity acts as the central hub representing individual consumers.
 All behavioral, perceptual, and segmentation entities relate to MPI via 1-to-many relationships.
@@ -91,3 +93,47 @@ Customer (MPI)
  ├── Day_Week
  ├── Need_State
  └── Companion
+
+
+## 🔐 Role-Based Data Access Control (RBAC)
+Defined Roles
+
+- Board of Directors (BOD)
+- HR / People Analytics
+- Finance & Accounting
+- Marketing
+- CRM Lead
+- Store Manager
+- Regional Manager
+- Sales Operations
+
+<img width="1116" height="517" alt="image" src="https://github.com/user-attachments/assets/71cef139-1789-4dac-86bb-816311e6dde8" />
+
+
+| Data Entity  | BOD | HR   | Finance | Marketing | CRM  | Store | Region | Sales Ops |
+| ------------ | --- | ---- | ------- | --------- | ---- | ----- | ------ | --------- |
+| Customer     | Agg | Reg  | None    | Full      | NPS  | Store | Region | Full      |
+| Brand_Health | Agg | Reg  | KPI     | Full      | NPS  | Store | Region | Full      |
+| Competitor   | Agg | None | Count   | Full      | None | None  | Region | Full      |
+
+
+## 📊 Analytical Use Case
+
+Customer churn pattern analysis
+
+Brand perception impact on loyalty
+
+Competitive positioning assessment
+
+Segmentation-driven insights
+
+
+# 🛠 Tools & Technologies
+
+- SQL
+
+- Data Modeling (ERD)
+
+- Data Governance (RBAC)
+
+- Business Analytics
